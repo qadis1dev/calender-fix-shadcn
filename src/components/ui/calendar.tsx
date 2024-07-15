@@ -75,7 +75,7 @@ function Calendar({
               </SelectTrigger>
               <SelectContent>
                 {selectItems.map(selectItem => (
-                  <SelectItem value={selectItem.value}>{selectItem.label}</SelectItem>
+                  <SelectItem className="cursor-pointer" value={selectItem.value}>{selectItem.label}</SelectItem>
                 ))}
               </SelectContent>
             </Select>
@@ -100,7 +100,7 @@ function Calendar({
               </SelectTrigger>
               <SelectContent>
                 {selectItems.map(selectItem => (
-                  <SelectItem value={selectItem.value}>{selectItem.label}</SelectItem>
+                  <SelectItem className="cursor-pointer" value={selectItem.value}>{selectItem.label}</SelectItem>
                 ))}
               </SelectContent>
             </Select>
